@@ -1,0 +1,200 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
+    <mxGraphModel dx="5740" dy="1301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RBeEcNEkILMSVHbmH7o1-43" target="RBeEcNEkILMSVHbmH7o1-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RBeEcNEkILMSVHbmH7o1-27" target="RBeEcNEkILMSVHbmH7o1-175" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RBeEcNEkILMSVHbmH7o1-27" target="RBeEcNEkILMSVHbmH7o1-136" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-27" value="View" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="150" y="390" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-28" value="+Rect m_Position" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-27" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-30" value="+m_MinSizeth  m_MaxSize" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-27" vertex="1">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-162" value="+ View[] m_Childrene" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-27" vertex="1">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-163" value="+  View m_Parent;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-27" vertex="1">
+          <mxGeometry y="104" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RBeEcNEkILMSVHbmH7o1-130" target="RBeEcNEkILMSVHbmH7o1-166" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="508" />
+              <mxPoint x="40" y="678" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RBeEcNEkILMSVHbmH7o1-130" target="RBeEcNEkILMSVHbmH7o1-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-130" value="ScriptableObject" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="478" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RBeEcNEkILMSVHbmH7o1-136" target="RBeEcNEkILMSVHbmH7o1-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RBeEcNEkILMSVHbmH7o1-183" target="RBeEcNEkILMSVHbmH7o1-175" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-183" value="IDropArea" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="490" y="30" width="400" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-184" value=" DropInfo DragOver(EditorWindow w, Vector2 screenPos);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-183" vertex="1">
+          <mxGeometry y="26" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-185" value=" bool PerformDrop(EditorWindow w, DropInfo dropInfo, Vector2 screenPos);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-183" vertex="1">
+          <mxGeometry y="52" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RBeEcNEkILMSVHbmH7o1-166" target="RBeEcNEkILMSVHbmH7o1-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RBeEcNEkILMSVHbmH7o1-136" target="RBeEcNEkILMSVHbmH7o1-166" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RBeEcNEkILMSVHbmH7o1-136" target="RBeEcNEkILMSVHbmH7o1-150" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="678" />
+              <mxPoint x="870" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RBeEcNEkILMSVHbmH7o1-136" target="RBeEcNEkILMSVHbmH7o1-131" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="678" />
+              <mxPoint x="870" y="499" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RBeEcNEkILMSVHbmH7o1-136" target="RBeEcNEkILMSVHbmH7o1-213" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="678" />
+              <mxPoint x="870" y="346" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-136" value="GUIView" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="620" y="590" width="180" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-137" value="Panel m_Panel " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-136" vertex="1">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-138" value="imguiContainer（OldOnGUI）&#xa;&#xa;在OnEnable的时候构建&#xa;并且构建m_Panel的时候&#xa;设置ImguiContainer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-136" vertex="1">
+          <mxGeometry y="52" width="180" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-181" value="imguiContainer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-136" vertex="1">
+          <mxGeometry y="150" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-166" value="ContainerWindow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="596" width="360" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-169" value="+ View[] m_Children  &#xa;这里包含了所有子View&#xa;真正的window实体，会被native代码持有" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-166" vertex="1">
+          <mxGeometry y="26" width="360" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-179" value="+ void HandleWindowDecorationStart(Rect windowPosition)&#xa;由子View发起的GUI绘制&#xa;绘制了右上角的关闭按钮，放大缩小按钮，还有个mac专有的按钮&#xa;绘制了整个Window正上方的拖拽框(当然我们看不见)&#xa;如果你的绘制模式为MainWindow，那么不绘制。&#xa;Unity黑色还是灰色显示也在这里，可以尝试反射改一下" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-166" vertex="1">
+          <mxGeometry y="80" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-175" value="SplitView" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="605" y="250" width="170" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-176" value="分割GUIView" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-175" vertex="1">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-203" value="维护基类里面的父子关系" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-175" vertex="1">
+          <mxGeometry y="52" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-177" value="实现拖拽能不能放下&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-175" vertex="1">
+          <mxGeometry y="78" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-205" value="void SplitGUI(Event evt)&#xa;区域分割更新(鼠标划拉)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-175" vertex="1">
+          <mxGeometry y="104" width="170" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-204" value="没有任何绘制" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-175" vertex="1">
+          <mxGeometry y="150" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-61" value="DockArea" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="538" width="280" height="324" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-207" value="+ List&lt;EditorWindow&gt; m_Panes &#xa;里面囊括的EditorWindow" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-61" vertex="1">
+          <mxGeometry y="26" width="280" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-218" value="+ HandleSplitView 在OldOnGUI里向上&#xa;调用SplitView更新拖拽大小的鼠标图标" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-61" vertex="1">
+          <mxGeometry y="70" width="280" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-208" value="+ OldOnGUI里面绘制深色背景" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-61" vertex="1">
+          <mxGeometry y="114" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-209" value="+ OldOnGUI里面绘制左上角Tab页签" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-61" vertex="1">
+          <mxGeometry y="144" width="280" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-210" value="关闭当前tab" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-61" vertex="1">
+          <mxGeometry y="172" width="280" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-211" value="右上三个点ItemsMenu" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-61" vertex="1">
+          <mxGeometry y="194" width="280" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-212" value="实现拖拽&#xa;具体原理就是监听鼠标事件&#xa;鼠标按下进入拖拽状态&#xa;开始拖拽创建一个PaneDragTab&#xa;后续拖拽遍历所有的ContainerWindow找SplitView&#xa;看能不能放下&#xa;鼠标抬起 放下&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-61" vertex="1">
+          <mxGeometry y="216" width="280" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-131" value="Toolbar" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="450" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-132" value="PlayMode切换" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-131" vertex="1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-133" value="各种tools" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-131" vertex="1">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-213" value="PaneDragTab" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="320" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-214" value="专门用来拖拽的。。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-213" vertex="1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-150" value="AppStatusBar" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="830" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-151" value="最下面下面编译转圈圈&#xa;烘焙进度条&#xa;开发者模式等等" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-150" vertex="1">
+          <mxGeometry y="26" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-43" value="HostView" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="985" y="598" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-44" value="+ EditorWindow actualView&#xa;我到底显示的who" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-43" vertex="1">
+          <mxGeometry y="26" width="230" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-49" value="+ OnFocus" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-43" vertex="1">
+          <mxGeometry y="70" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-46" value="+ OnGUI" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-43" vertex="1">
+          <mxGeometry y="96" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-206" value="+ 各种其显示的EditorWindow actualView&#xa;方法的调用反射实现" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RBeEcNEkILMSVHbmH7o1-43" vertex="1">
+          <mxGeometry y="122" width="230" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RBeEcNEkILMSVHbmH7o1-137" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749.9999999999991" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RBeEcNEkILMSVHbmH7o1-220" value="Plane" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
